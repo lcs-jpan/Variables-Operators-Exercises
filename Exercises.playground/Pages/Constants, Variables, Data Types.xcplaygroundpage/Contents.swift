@@ -35,7 +35,10 @@
  
  */
 // Answer Question 1 below
-
+let firstName = "Constantin"
+let lastName = "Floess"
+var currentGrade = 100
+let novemberReportGrade = 99
 /*:
  ### Question 2
  
@@ -47,7 +50,9 @@
  
  */
 // Answer Question 2 below
-
+let myAge = 10 // infer, or guess, the data type based on the initial value
+let otherAge = 40.0
+let averageAge = (Double(myAge) + otherAge) / 2
 
 /*:
  ### Question 3
@@ -55,7 +60,7 @@
  Create a variable that will track a person's favourite hobby. Select whatever name you feel is appropriate, but use the camel case convention when you name this constant.
  */
 // Answer Question 3 below
-
+let myFavouriteHobby = "Making tomato soup"
 
 /*:
  ### Question 4
@@ -65,6 +70,8 @@
  Use multiple `print` statements below to answer this question.
  */
 // Answer Question 4 below
+print("The Swift compiler can optimize code to be more efficient when constants are used.")
+print("Built in error checking – if you know a value should never change – declare it as a constant. If you accidentally try to change it in the future, you'll get a warning.")
 
 
 /*:
@@ -76,7 +83,7 @@
  
  */
 // Answer Question 5 below
-
+let ransomDemand = 100_000_000_000
 /*:
  ### Question 6
  
@@ -96,7 +103,10 @@
  
  */
 // Answer Question 6 below
-
+var year = 2017
+let name = "Hal"
+//year = name
+print("The compiler throws an error and won't run your program because of a data type mismatch. This is a syntax error.")
 
 /*:
  ### Question 7
@@ -106,7 +116,7 @@
  Use multiple `print` statements below to explain.
  */
 // Answer Question 7 below
-
+print("Type-safe languages encourage or require you to be clear about the types of values your code can work with. For example, if part of your code expects an Int, you can't pass it a Double or a String.")
 
 
 
