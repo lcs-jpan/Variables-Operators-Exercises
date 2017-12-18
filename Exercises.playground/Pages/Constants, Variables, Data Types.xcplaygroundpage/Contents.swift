@@ -35,7 +35,10 @@
  
  */
 // Answer Question 1 below
-
+let firstName = "Jason"
+let lastName = "Pan"
+var currentGrade = 100
+let studentGradeForTheNovemberReportCard = 93
 /*:
  ### Question 2
  
@@ -47,7 +50,9 @@
  
  */
 // Answer Question 2 below
-
+let myAge : Int = 7 // infer, or guess, the data type based on the initial value
+let otherAge : Double = 40.0
+let averageAge = Double(myAge) + otherAge / 2
 
 /*:
  ### Question 3
@@ -55,7 +60,7 @@
  Create a variable that will track a person's favourite hobby. Select whatever name you feel is appropriate, but use the camel case convention when you name this constant.
  */
 // Answer Question 3 below
-
+let myFavouriteHobby = "Making tomato soup"
 
 /*:
  ### Question 4
@@ -65,6 +70,7 @@
  Use multiple `print` statements below to answer this question.
  */
 // Answer Question 4 below
+print("if you set a value to a constant, the compiler undersatnds that is should never be changed in the way, the compiler enforces safety and these adjustments allow your program to execute faster")
 
 
 /*:
@@ -76,6 +82,7 @@
  
  */
 // Answer Question 5 below
+let randomDemand = 1_000_000
 
 /*:
  ### Question 6
@@ -96,6 +103,10 @@
  
  */
 // Answer Question 6 below
+var year = 2017
+let name = "Jason"
+// year = name
+print("The compiler throws an error and won't run your program because of a data type mismatch. This is a syntax error.")
 
 
 /*:
@@ -106,7 +117,7 @@
  Use multiple `print` statements below to explain.
  */
 // Answer Question 7 below
-
+print("Type-safe language encourage or require you to be clear about the types of values your code can work with. For example, if part of your code exoexts an Int, you can't pass it a Double or a String.")
 
 
 
