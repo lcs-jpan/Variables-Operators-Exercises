@@ -78,7 +78,7 @@ print("if you set a value to a constant, the compiler undersatnds that is should
  
  ![million](million.jpg "I demand the sum of one million dollars!")
  
- Define a constant named `randomDemand` and set the value to one million dollars, using underscores to make the value more readable.
+ Define a constant named `ransomDemand` and set the value to one million dollars, using underscores to make the value more readable.
  
  */
 // Answer Question 5 below
